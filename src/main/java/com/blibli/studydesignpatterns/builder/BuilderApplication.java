@@ -27,18 +27,18 @@ public class BuilderApplication {
 
     public static void main(String[] args) {
         Mahasiswa mahasiswa1 = new Mahasiswa();
-        mahasiswa1.setNim("13518024");
-        mahasiswa1.setNama("Jovan");
+        mahasiswa1.setNim("181401067");
+        mahasiswa1.setNama("Tommy");
         mahasiswa1.setAlamat("Indonesia");
         mahasiswa1.setTanggallahir(new Date());
-        mahasiswa1.setHobi(Arrays.asList("Game","Nonton"));
+        mahasiswa1.setHobi(Arrays.asList("Makan","Jalan-jalan"));
 
         Mahasiswa mahasiswa2 = Mahasiswa.builder()
-                .nim("13518024")
-                .nama("Jovan")
+                .nim("181401067")
+                .nama("Lohil")
                 .alamat("Indonesia")
                 .tanggallahir(new Date())
-                .hobi(Arrays.asList("Game","Nonton"))
+                .hobi(Arrays.asList("Makan","Jalan-jalan"))
                 .build();
 
         System.out.println(mahasiswa1);
